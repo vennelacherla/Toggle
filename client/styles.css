@@ -1,0 +1,45 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+   
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin:20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-signup {
+    background-color: #28a745;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn-signup:hover {
+    background-color: #30723e;
+    transform: scale(1.05);
+    
+}
+
+.btn-signin {
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn-signin:hover {
+    background-color: #0752a3;
+    transform: scale(1.05);
+}

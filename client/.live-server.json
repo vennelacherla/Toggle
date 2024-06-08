@@ -1,0 +1,6 @@
+{
+    "port": 8070,
+    "watch": ["*.html", "*.css", "*.js"],
+    "ignore": ["node_modules", ".*"]
+  }
+  
